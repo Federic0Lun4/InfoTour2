@@ -12,10 +12,16 @@ padding: 0;
     list-style: none;
 }
 *{
-box-sizing:borderbox
+box-sizing:border-box
 }
 /*-------HEADER----------*/
-.logo a img{
+header nav div a img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*.logo a img{
     width:100px ;
     height:100px ;  
 }
@@ -52,7 +58,7 @@ header nav ul li a{
     padding: 5px;
     border-radius: 15px;
     background-color: #22c0ce;
-}
+}*/
 
 
 
@@ -185,7 +191,7 @@ font-size: 35px
 .buenosAires p{
     text-align: center;
     color: rgb(11, 11, 11);
-    font-size: 25px;
+    font-size: 20px;
 }
 .subTitulo{
     font-size: 30px;
@@ -204,7 +210,10 @@ font-size: 35px
 }
 .lugarBuenosAires div p{
     color: rgb(0, 0, 0);
-    font-size: xx-large;    
+    font-size: 20px;    
+}
+.lugarParrafo p{
+    font-size: 5px;
 }
 .lugarBuenosAires .lugarBocaParrafo{
     display: flex;
@@ -307,6 +316,9 @@ font-size: 35px
 .lugarTucuman div p{
     color: rgb(0, 0, 0);
     font-size: xx-large;    
+}
+.lugarParrafo p{
+    font-size: 15px;
 }
 .lugarTucuman .lugarParrafo{
     display: flex;
