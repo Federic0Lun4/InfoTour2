@@ -193,16 +193,20 @@ font-size: 35px
     color: rgb(11, 11, 11);
     font-size: 20px;
 }
+
 .subTitulo{
+    width: 100%;
     font-size: 30px;
     background-color: #22c0ce;
     color: black;
     text-align: center;
     padding: 50px;
+    
 }
 
 .lugarBuenosAires{
     background-color:rgb(199, 197, 207);
+    width: 100%;
     display: flex;
 }
 .lugarBuenosAires div{
@@ -226,7 +230,7 @@ border: 2px black solid;
 }
 .lugarBuenosAires .lugarBuenosAiresImagenes img {
     height: 230px;
-    width: 370px;
+    width: 100%px;
     border: 2px rgb(0, 0, 0) solid;
     margin: 10px 10px 10px 10px;
     display:flex ;
@@ -392,6 +396,7 @@ footer div p{
 }
 @media screen and (max-width:1155px) {
     .lugarBuenosAires{
+        width:1;
         display: flex;
         flex-direction: column;
     }
@@ -434,18 +439,18 @@ footer div p{
         width:100%;
         margin: 0px;
     }
+    .lugarBuenosAires .lugarParrafo .parrafo {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width:580px){
     .buenosAires p{
         display: none;
         }
-    .lugarParrafo p{
-        font-size: 18px;
-    }
 }
 @media screen and (max-width:490px) {
     .lugarBuenosAiresImagenes img{
-        width: auto;
+        width: 100%;
     }
 
     
