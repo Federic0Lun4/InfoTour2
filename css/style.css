@@ -522,6 +522,7 @@ footer div p{
 @media screen and (max-width:660px){
     .gridContainer{
         grid-template-columns: repeat(2,1fr);
+        gap: 0px;
     }
     .img1{
         grid-column: span 1;
@@ -532,10 +533,12 @@ footer div p{
     .img4{
         grid-column: span 2;
     }
+    
 }
 @media screen and (max-width:620px){
     .gridContainer{ 
     grid-template-columns:1fr;
+    gap: 0px;
     }
 
 }
@@ -549,6 +552,4 @@ footer div p{
         width:37vw ;
         
     }
-
-    
 }
