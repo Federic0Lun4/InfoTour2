@@ -1,0 +1,114 @@
+@media screen and (max-width:1180px) {
+    .sugerenciasTarjeta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .tarjeta{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+@media screen and (max-width:1155px) {
+    .lugarBuenosAires{
+        width:1;
+        display: flex;
+        flex-direction: column;
+        .lugarBuenosAiresImagenes {
+            display: flex;
+            justify-content: space-around;
+            width: 43vw;
+    }
+    
+    }
+
+}
+@media screen and (max-width:1040px) {
+    .gridContainer { 
+    grid-template-columns: repeat(3,1fr);
+    .img2{
+        grid-column: span 2;
+        object-fit: cover;
+    }
+}
+}
+@media screen and (max-width:950px){
+    .hero{ 
+        div{
+            h2{
+                position: absolute;
+                margin-top: 50px;
+                background-color: rgba(255, 255, 255, 0.279);
+                padding: 5px;
+                font-family: 'Courgette', cursive;
+                color:rgb(0, 0, 0);
+                font-size: 75px;
+                border: 10px white double;
+                } 
+            img{
+                border: 2px black solid;
+                width: 100%;
+                height: 350px;
+                margin: 0px;
+            }
+        }   
+    }
+}
+@media screen and (max-width:880px){
+    .lugarBuenosAires .lugarBuenosAiresImagenes .Limg1{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:710px) {
+    .hero{
+        div{
+            img{
+                width:100%;
+                margin: 0px;
+            }
+            h2{
+                font-size: 70px;
+            }
+        }
+    }
+    .lugarBuenosAires .lugarParrafo .parrafo {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:660px){
+    .gridContainer{
+        grid-template-columns: repeat(2,1fr);
+        gap: 0px;
+        .img1{
+            grid-column: span 1;
+            }
+        .img2{
+            grid-column: span 1;
+            }
+        .img4{
+            grid-column: span 2;
+            }
+    }
+    
+    
+}
+@media screen and (max-width:620px){
+    .gridContainer{ 
+    grid-template-columns:1fr;
+    gap: 0px;
+    }
+
+}
+@media screen and (max-width:580px){
+    .buenosAires p{
+        display: none;
+        }
+}
+@media screen and (max-width:490px) {
+    .lugarBuenosAires .lugarBuenosAiresImagenes img {
+        width:37vw ;
+        
+    }
+}

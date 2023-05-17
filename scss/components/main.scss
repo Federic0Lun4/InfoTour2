@@ -1,0 +1,436 @@
+main{
+    .hero{
+        background-color: #22c0ce;
+        background-size: cover;
+        div{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            img{
+                border: 2px black solid;
+                width: 95%;
+                height: 500px;
+                margin: 30px 30px 30px 30px;
+            }
+            h2{
+                position: absolute;
+                margin-top: 50px;
+                background-color: rgba(255, 255, 255, 0.279);
+                padding: 5px;
+                font-family: 'Courgette', cursive;
+                color:rgb(0, 0, 0);
+                font-size: 100px;
+                border: 10px white double; 
+            }
+        }
+    }
+    .presentacion{
+        background-size: cover;
+        text-align: center;
+        h2{
+            background-color: rgba(154, 151, 170, 0.484);
+            color: rgb(0, 0, 0);
+            font-size: 45px;
+            padding: 15px;
+        }
+        p{
+            background-color:#22c0ce;
+            color: rgb(0, 0, 0);
+            padding: 15px;
+            font-size: 30px;
+        }
+    }
+    .sugerencias{
+        h2{
+            color: rgb(2, 2, 2);
+            background-color: rgba(154, 151, 170, 0.484);
+            background-size: cover;
+            font-size:35px ;
+            padding: 15px;
+            text-align: center;
+        }
+        .sugerenciasTarjeta{
+            background-color: #22c0ce;
+            display: flex;
+            justify-content: space-between;
+            .tarjeta{
+                padding: 10px;
+                margin: 3%;
+                border: 2px black solid;
+                text-align: center;
+                background-color: rgb(199, 197, 207);
+                display: flex;
+                flex-direction: column;
+                width: 320px;
+                img{
+                    width: 300px;
+                    height:210px ;
+                    border-radius: 20px;
+                    margin-bottom: 20px;
+                }
+                .boton{
+                    text-decoration: none;
+                    color:rgba(0, 0, 0, 0.904);
+                    border:2px black solid;
+                    padding: 2px;
+                    border-radius: 15px;
+                    background-color: #22c0ce;
+                    transition: 0.5s;
+                    &:hover{
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+    section{
+        .logoFijo{
+            position: fixed;
+            bottom: 30px;
+            right: 1px;
+            display: inline-block;
+            a{
+            }
+        }
+    }
+    .gridContainer{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: 250px;
+        gap: 5px;          
+
+            
+        }
+        .img1{
+            grid-row: span 2;
+        }
+        .img5{
+            grid-column: span 3;
+        }
+    }
+    .gridItem img{
+            width: 30vw;
+            height: 20vh;
+    }
+    
+
+/*---BuenosAires---*/
+main{
+    .buenosAires{
+        background-image: url(../img/BuenosAires.jpg);
+        width: 100%;
+        height: 85vh;
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-position: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        div{
+            background-color: rgba(255, 255, 255, 0.486);
+            border: 2px black solid;
+            width: 100%;
+        
+            h2{
+                font-size: 30px
+            }
+            p{
+                text-align: center;
+                color: rgb(11, 11, 11);
+                font-size: 20px;
+            }
+        }
+    }
+    section{
+        .separador{
+            text-align: center;
+            background-color:rgb(103, 103, 103) ;
+        }
+    }
+    .subTitulo{
+        font-size: 30px;
+        background-color: #22c0ce;
+        color: black;
+        text-align: center;
+        padding: 50px;
+        h2{
+
+        }
+        .lugarBuenosAires{
+            background-color:rgb(199, 197, 207);
+            display: flex;
+            .lugarBuenosAiresImagenes{
+                width: auto;
+                border: 2px rgb(0, 0, 0) solid;
+                    img{
+                        height: 50vh;
+                        width: 30vw;
+                        border: 2px rgb(0, 0, 0) solid;
+                        margin: 10px 10px 10px 10px;
+                        object-fit: cover;
+                        display:flex ;
+                        flex-direction: column;
+                        }
+                    }
+            
+            .lugarParrafo{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .parrafo{
+                    color: rgb(0, 0, 0);
+                    font-size: 30px;  
+                }
+                a{
+                    display: flex;
+                    padding: 5px;
+                    justify-content: center;
+                    border: 2px black solid;
+                }
+            }
+        }
+    
+    
+/*---Tucuman---*/
+main{
+    .Tucuman{
+        background-image: url(../img/tucuman.jpg);
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-position: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        }
+        div{
+            background-color: rgba(255, 255, 255, 0.486);
+            border: 2px black solid;
+            width: 100%;
+        
+            h2{
+                font-size: 30px
+            }
+            p{
+                text-align: center;
+                color: rgb(11, 11, 11);
+                font-size: 20px;
+            }
+        }
+    }
+    section{
+        .separador{
+            text-align: center;
+            background-color:rgb(103, 103, 103) ;
+        }
+    }
+    .subTitulo{
+        font-size: 30px;
+        background-color: #22c0ce;
+        color: black;
+        text-align: center;
+        padding: 50px;
+        
+
+        
+        .lugarTucuman{
+            background-color:rgb(199, 197, 207);
+            display: flex;
+            .lugarTucumanAiresImagenes{
+                width: auto;
+                border: 2px rgb(0, 0, 0) solid;
+                    img{
+                        height: 50vh;
+                        width: 30vw;
+                        border: 2px rgb(0, 0, 0) solid;
+                        margin: 10px 10px 10px 10px;
+                        object-fit: cover;
+                        display:flex ;
+                        flex-direction: column;
+                        }
+                    }
+            }
+            .lugarParrafo{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .parrafo{
+                    color: rgb(0, 0, 0);
+                    font-size: 30px;  
+                }
+                a{
+                    display: flex;
+                    padding: 5px;
+                    justify-content: center;
+                    border: 2px black solid;
+                }
+            }
+    }
+    
+/*-----Rio Nego------*/
+main{
+    .rioNegro{
+            background-image: url(../img/barilocheback.jpg);
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size:cover ;
+            background-position: center;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+        div{
+            background-color: rgba(255, 255, 255, 0.486);
+            border: 2px black solid;
+            width: 100%;
+        
+            h2{
+                font-size: 30px
+            }
+            p{
+                text-align: center;
+                color: rgb(11, 11, 11);
+                font-size: 20px;
+            }
+        }
+    }
+    section{
+        .separador{
+            text-align: center;
+            background-color:rgb(103, 103, 103) ;
+        }
+    }
+    .subTitulo{
+        font-size: 30px;
+        background-color: #22c0ce;
+        color: black;
+        text-align: center;
+        padding: 50px;
+        h2{
+
+        }
+        .lugarBuenosAires{
+            background-color:rgb(199, 197, 207);
+            display: flex;
+            .lugarBuenosAiresImagenes{
+                width: auto;
+                border: 2px rgb(0, 0, 0) solid;
+                    img{
+                        height: 50vh;
+                        width: 30vw;
+                        border: 2px rgb(0, 0, 0) solid;
+                        margin: 10px 10px 10px 10px;
+                        object-fit: cover;
+                        display:flex ;
+                        flex-direction: column;
+                        }
+                    }
+            }
+            .lugarParrafo{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .parrafo{
+                    color: rgb(0, 0, 0);
+                    font-size: 30px;  
+                }
+                a{
+                    display: flex;
+                    padding: 5px;
+                    justify-content: center;
+                    border: 2px black solid;
+                }
+            }
+        }
+    }
+    /*----Misiones----*/
+    main{
+        .rioNegro{
+            background-image: url(../img/cataratas_2.jpg);
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size:cover ;
+            background-position: center;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            div{
+                background-color: rgba(255, 255, 255, 0.486);
+                border: 2px black solid;
+                width: 100%;
+            
+                h2{
+                    font-size: 30px
+                }
+                p{
+                    text-align: center;
+                    color: rgb(11, 11, 11);
+                    font-size: 20px;
+                }
+            }
+        }
+        section{
+            .separador{
+                text-align: center;
+                background-color:rgb(103, 103, 103) ;
+            }
+        }
+        .subTitulo{
+            font-size: 30px;
+            background-color: #22c0ce;
+            color: black;
+            text-align: center;
+            padding: 50px;
+            h2{
+    
+            }
+            .lugarBuenosAires{
+                background-color:rgb(199, 197, 207);
+                display: flex;
+                .lugarBuenosAiresImagenes{
+                    width: auto;
+                    border: 2px rgb(0, 0, 0) solid;
+                        img{
+                            height: 50vh;
+                            width: 30vw;
+                            border: 2px rgb(0, 0, 0) solid;
+                            margin: 10px 10px 10px 10px;
+                            object-fit: cover;
+                            display:flex ;
+                            flex-direction: column;
+                            }
+                        }
+                }
+                .lugarParrafo{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .parrafo{
+                        color: rgb(0, 0, 0);
+                        font-size: 30px;  
+                    }
+                    a{
+                        display: flex;
+                        padding: 5px;
+                        justify-content: center;
+                        border: 2px black solid;
+                    }
+                }
+            }
+        }
+    }
+}

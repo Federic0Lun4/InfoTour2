@@ -1,0 +1,468 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+* {
+  text-decoration: none;
+  list-style: none; }
+
+* {
+  box-sizing: border-box; }
+
+header {
+  background-color: #158c97; }
+  header nav div a img {
+    width: 100px;
+    height: 100px; }
+
+main .hero {
+  background-color: #22c0ce;
+  background-size: cover; }
+  main .hero div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .hero div img {
+      border: 2px black solid;
+      width: 95%;
+      height: 500px;
+      margin: 30px 30px 30px 30px; }
+    main .hero div h2 {
+      position: absolute;
+      margin-top: 50px;
+      background-color: rgba(255, 255, 255, 0.279);
+      padding: 5px;
+      font-family: 'Courgette', cursive;
+      color: black;
+      font-size: 100px;
+      border: 10px white double; }
+
+main .presentacion {
+  background-size: cover;
+  text-align: center; }
+  main .presentacion h2 {
+    background-color: rgba(154, 151, 170, 0.484);
+    color: black;
+    font-size: 45px;
+    padding: 15px; }
+  main .presentacion p {
+    background-color: #22c0ce;
+    color: black;
+    padding: 15px;
+    font-size: 30px; }
+
+main .sugerencias h2 {
+  color: #020202;
+  background-color: rgba(154, 151, 170, 0.484);
+  background-size: cover;
+  font-size: 35px;
+  padding: 15px;
+  text-align: center; }
+
+main .sugerencias .sugerenciasTarjeta {
+  background-color: #22c0ce;
+  display: flex;
+  justify-content: space-between; }
+  main .sugerencias .sugerenciasTarjeta .tarjeta {
+    padding: 10px;
+    margin: 3%;
+    border: 2px black solid;
+    text-align: center;
+    background-color: #c7c5cf;
+    display: flex;
+    flex-direction: column;
+    width: 320px; }
+    main .sugerencias .sugerenciasTarjeta .tarjeta img {
+      width: 300px;
+      height: 210px;
+      border-radius: 20px;
+      margin-bottom: 20px; }
+    main .sugerencias .sugerenciasTarjeta .tarjeta .boton {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.904);
+      border: 2px black solid;
+      padding: 2px;
+      border-radius: 15px;
+      background-color: #22c0ce;
+      transition: 0.5s; }
+      main .sugerencias .sugerenciasTarjeta .tarjeta .boton:hover {
+        background-color: white; }
+
+main section .logoFijo {
+  position: fixed;
+  bottom: 30px;
+  right: 1px; }
+
+main .gridContainer {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 250px;
+  gap: 5px; }
+  main .gridContainer .img1 {
+    grid-row: span 2;
+    background-color: #22c0ce;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  main .gridContainer .img2 {
+    background-color: #22c0ce;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  main .gridContainer .girdItem {
+    background-color: #22c0ce;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  main .gridContainer .img4 {
+    background-color: #22c0ce;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  main .gridContainer .img5 {
+    grid-column: span 3;
+    background-color: #22c0ce;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+/*---BuenosAires---*/
+main .buenosAires {
+  background-image: url(../img/BuenosAires.jpg);
+  width: 100%;
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; }
+  main .buenosAires div {
+    background-color: rgba(255, 255, 255, 0.486);
+    border: 2px black solid;
+    width: 100%; }
+    main .buenosAires div h2 {
+      font-size: 30px; }
+    main .buenosAires div p {
+      text-align: center;
+      color: #0b0b0b;
+      font-size: 20px; }
+
+main section .separador {
+  text-align: center;
+  background-color: #676767; }
+
+main .subTitulo {
+  font-size: 30px;
+  background-color: #22c0ce;
+  color: black;
+  text-align: center;
+  padding: 50px; }
+  main .subTitulo .lugarBuenosAires {
+    background-color: #c7c5cf;
+    display: flex; }
+    main .subTitulo .lugarBuenosAires .lugarBuenosAiresImagenes {
+      width: auto;
+      border: 2px black solid; }
+      main .subTitulo .lugarBuenosAires .lugarBuenosAiresImagenes img {
+        height: 50vh;
+        width: 30vw;
+        border: 2px black solid;
+        margin: 10px 10px 10px 10px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column; }
+  main .subTitulo .lugarParrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    main .subTitulo .lugarParrafo .parrafo {
+      color: black;
+      font-size: 30px; }
+    main .subTitulo .lugarParrafo a {
+      display: flex;
+      padding: 5px;
+      justify-content: center;
+      border: 2px black solid; }
+
+/*---Tucuman---*/
+main .Tucuman {
+  background-image: url(../img/tucuman.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; }
+
+main div {
+  background-color: rgba(255, 255, 255, 0.486);
+  border: 2px black solid;
+  width: 100%; }
+  main div h2 {
+    font-size: 30px; }
+  main div p {
+    text-align: center;
+    color: #0b0b0b;
+    font-size: 20px; }
+
+section .separador {
+  text-align: center;
+  background-color: #676767; }
+
+.subTitulo {
+  font-size: 30px;
+  background-color: #22c0ce;
+  color: black;
+  text-align: center;
+  padding: 50px; }
+  .subTitulo .lugarTucuman {
+    background-color: #c7c5cf;
+    display: flex; }
+    .subTitulo .lugarTucuman .lugarTucumanAiresImagenes {
+      width: auto;
+      border: 2px black solid; }
+      .subTitulo .lugarTucuman .lugarTucumanAiresImagenes img {
+        height: 50vh;
+        width: 30vw;
+        border: 2px black solid;
+        margin: 10px 10px 10px 10px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column; }
+  .subTitulo .lugarParrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .subTitulo .lugarParrafo .parrafo {
+      color: black;
+      font-size: 30px; }
+    .subTitulo .lugarParrafo a {
+      display: flex;
+      padding: 5px;
+      justify-content: center;
+      border: 2px black solid; }
+
+/*-----Rio Nego------*/
+main .rioNegro {
+  background-image: url(../img/barilocheback.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; }
+  main .rioNegro div {
+    background-color: rgba(255, 255, 255, 0.486);
+    border: 2px black solid;
+    width: 100%; }
+    main .rioNegro div h2 {
+      font-size: 30px; }
+    main .rioNegro div p {
+      text-align: center;
+      color: #0b0b0b;
+      font-size: 20px; }
+
+main section .separador {
+  text-align: center;
+  background-color: #676767; }
+
+main .subTitulo {
+  font-size: 30px;
+  background-color: #22c0ce;
+  color: black;
+  text-align: center;
+  padding: 50px; }
+  main .subTitulo .lugarBuenosAires {
+    background-color: #c7c5cf;
+    display: flex; }
+    main .subTitulo .lugarBuenosAires .lugarBuenosAiresImagenes {
+      width: auto;
+      border: 2px black solid; }
+      main .subTitulo .lugarBuenosAires .lugarBuenosAiresImagenes img {
+        height: 50vh;
+        width: 30vw;
+        border: 2px black solid;
+        margin: 10px 10px 10px 10px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column; }
+  main .subTitulo .lugarParrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    main .subTitulo .lugarParrafo .parrafo {
+      color: black;
+      font-size: 30px; }
+    main .subTitulo .lugarParrafo a {
+      display: flex;
+      padding: 5px;
+      justify-content: center;
+      border: 2px black solid; }
+
+/*----Misiones----*/
+main .rioNegro {
+  background-image: url(../img/cataratas_2.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; }
+  main .rioNegro div {
+    background-color: rgba(255, 255, 255, 0.486);
+    border: 2px black solid;
+    width: 100%; }
+    main .rioNegro div h2 {
+      font-size: 30px; }
+    main .rioNegro div p {
+      text-align: center;
+      color: #0b0b0b;
+      font-size: 20px; }
+
+main section .separador {
+  text-align: center;
+  background-color: #676767; }
+
+main .subTitulo {
+  font-size: 30px;
+  background-color: #22c0ce;
+  color: black;
+  text-align: center;
+  padding: 50px; }
+  main .subTitulo .lugarBuenosAires {
+    background-color: #c7c5cf;
+    display: flex; }
+    main .subTitulo .lugarBuenosAires .lugarBuenosAiresImagenes {
+      width: auto;
+      border: 2px black solid; }
+      main .subTitulo .lugarBuenosAires .lugarBuenosAiresImagenes img {
+        height: 50vh;
+        width: 30vw;
+        border: 2px black solid;
+        margin: 10px 10px 10px 10px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column; }
+  main .subTitulo .lugarParrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    main .subTitulo .lugarParrafo .parrafo {
+      color: black;
+      font-size: 30px; }
+    main .subTitulo .lugarParrafo a {
+      display: flex;
+      padding: 5px;
+      justify-content: center;
+      border: 2px black solid; }
+
+footer {
+  background-color: darkgray; }
+  footer div div {
+    display: flex;
+    justify-content: space-between; }
+    footer div div a {
+      background-color: rgba(7, 7, 7, 0.578);
+      color: black; }
+
+@media screen and (max-width: 1180px) {
+  .sugerenciasTarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .sugerenciasTarjeta .tarjeta {
+      display: flex;
+      align-items: center; } }
+
+@media screen and (max-width: 1155px) {
+  .lugarBuenosAires {
+    width: 1;
+    display: flex;
+    flex-direction: column; }
+    .lugarBuenosAires .lugarBuenosAiresImagenes {
+      display: flex;
+      justify-content: space-around;
+      width: 43vw; } }
+
+@media screen and (max-width: 1040px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 1fr); }
+    .gridContainer .img2 {
+      grid-column: span 2;
+      object-fit: cover; } }
+
+@media screen and (max-width: 950px) {
+  .hero div h2 {
+    position: absolute;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.279);
+    padding: 5px;
+    font-family: 'Courgette', cursive;
+    color: black;
+    font-size: 75px;
+    border: 10px white double; }
+  .hero div img {
+    border: 2px black solid;
+    width: 100%;
+    height: 350px;
+    margin: 0px; } }
+
+@media screen and (max-width: 880px) {
+  .lugarBuenosAires .lugarBuenosAiresImagenes .Limg1 {
+    display: none; } }
+
+@media screen and (max-width: 710px) {
+  .hero div img {
+    width: 100%;
+    margin: 0px; }
+  .hero div h2 {
+    font-size: 70px; }
+  .lugarBuenosAires .lugarParrafo .parrafo {
+    font-size: 18px; } }
+
+@media screen and (max-width: 660px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px; }
+    .gridContainer .img1 {
+      grid-column: span 1; }
+    .gridContainer .img2 {
+      grid-column: span 1; }
+    .gridContainer .img4 {
+      grid-column: span 2; } }
+
+@media screen and (max-width: 620px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+    gap: 0px; } }
+
+@media screen and (max-width: 580px) {
+  .buenosAires p {
+    display: none; } }
+
+@media screen and (max-width: 490px) {
+  .lugarBuenosAires .lugarBuenosAiresImagenes img {
+    width: 37vw; } }
