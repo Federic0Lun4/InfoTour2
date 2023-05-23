@@ -12,30 +12,70 @@
 }
 @media screen and (max-width:1155px) {
     .lugarBuenosAires{
-        width:1;
         display: flex;
         flex-direction: column;
         .lugarBuenosAiresImagenes {
             display: flex;
             justify-content: space-around;
-            width: 43vw;
+            .Limg1{
+                width: 45vw;
+                border: none;
+            }
+            .Limg2{
+                width: 45vw;
+                border: none;
+            }
+        }
     }
-    
+.subTitulo{
+    H2{
+
     }
+    .lugarTucuman{
+        display: flex;
+        flex-direction: column;
+        .lugarTucumanImagenes{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .Ltimg1{
+                width: 55vw;
+                border: none;
+            }
+            .Ltimg2{
+                width: 55vw;
+                border: none;
+            }
+        }
+    }
+}
 
 }
 @media screen and (max-width:1040px) {
     .gridContainer { 
     grid-template-columns: repeat(3,1fr);
     .img2{
-        grid-column: span 2;
+        grid-column: span 3;
         object-fit: cover;
+    }
+    .img4{
+        grid-column: span 2;
+    }
+    .img5{
+        display: none;
     }
 }
 }
 @media screen and (max-width:950px){
-    .hero{ 
+    .hero{
         div{
+            img{
+                border: 0px black solid;
+                width: 950px;
+                height: 350px;
+                margin: 0px;
+            }
             h2{
                 position: absolute;
                 margin-top: 50px;
@@ -43,39 +83,87 @@
                 padding: 5px;
                 font-family: 'Courgette', cursive;
                 color:rgb(0, 0, 0);
-                font-size: 75px;
-                border: 10px white double;
-                } 
-            img{
-                border: 2px black solid;
-                width: 100%;
-                height: 350px;
-                margin: 0px;
+                font-size: 70px;
+                border: 10px white double;  
             }
-        }   
-    }
+        }
+    }      
 }
 @media screen and (max-width:880px){
-    .lugarBuenosAires .lugarBuenosAiresImagenes .Limg1{
-        display: none;
-    }
-}
-
-@media  screen and (max-width:710px) {
-    .hero{
-        div{
-            img{
-                width:100%;
-                margin: 0px;
+    .subTitulo{
+        .lugarBuenosAires{
+            .lugarBuenosAiresImagenes{
+                .Limg1{
+                    width: 39vw;
+                    border: none;
+                }
+                .Limg2{
+                    border: none;
+                    width: 39vw;
+                }
             }
-            h2{
-                font-size: 70px;
+            .lugarParrafo{
+                .parrafo{
+                    font-size: 20px;
+                }
+                a{
+
+                }
             }
         }
     }
-    .lugarBuenosAires .lugarParrafo .parrafo {
-        font-size: 18px;
+}
+    .subTitulo{
+        .lugarTucuman{
+            .lugarTucumanImagenes{
+                .Ltimg1{
+                    width: 39vw;
+                }
+                .Ltimg2{
+                    width: 49vw;
+                }
+            }
+            .lugarParrafo{
+                .parrafo{
+                    font-size: 20px;
+                }
+                a{
+
+                }
+            }
+        }
     }
+@media screen and (max-width:720px) {
+    main{
+        .hero{
+            .imgtitle{
+                img{
+                    width: 100%;
+                }
+                h2{
+                    font-size: 55px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:690px) {
+    .subTitulo{
+        .lugarBuenosAires{
+            .lugarBuenosAiresImagenes{
+                img{
+                }
+            }
+            .lugarParrafo{
+                
+                .parrafo{
+                    font-size: 14px !important;
+                }
+                a{
+                }
+            }
+        }
+    }  
 }
 @media screen and (max-width:660px){
     .gridContainer{
@@ -84,11 +172,12 @@
         .img1{
             grid-column: span 1;
             }
+            
         .img2{
-            grid-column: span 1;
+            grid-column: span 2;
             }
         .img4{
-            grid-column: span 2;
+            grid-column: span 3;
             }
     }
     
@@ -99,16 +188,107 @@
     grid-template-columns:1fr;
     gap: 0px;
     }
+        .subTitulo{
+        .lugarBuenosAires{
+            .lugarBuenosAiresImagenes{
+                .Limg1{
+                    width: 38vw;
+                    border: none;
+                }
+                .Limg2{
+                    border: none;
+                    width: 38vw;
+                }
+            }
+            .lugarParrafo{
+                .parrafo{
+                    
+                }
+                a{
+                }
+            }
+        }
+    }
+}
+    .subTitulo{
+        .lugarTucuman{
+            .lugarTucumanImagenes{
+                .Ltimg1{
+                    width: 38vw;
+                }
+                .Ltimg2{
+                    width: 38vw;
+                }
+            }
+            .lugarParrafo{
+                .parrafo{
+                    font-size: 20px;
+                }
+                a{
 
+                }
+            }
+    }
 }
 @media screen and (max-width:580px){
     .buenosAires p{
         display: none;
         }
-}
-@media screen and (max-width:490px) {
-    .lugarBuenosAires .lugarBuenosAiresImagenes img {
-        width:37vw ;
-        
+    .tucuman p{
+        display: none;
+    }
+    .rioNegro p{
+        display: none;
+    }
+    .misiones {
+        div{
+            p{
+                display:none;
+            }
+        }
     }
 }
+@media screen and (max-width:500px) {
+    .subTitulo{
+        .lugarBuenosAires{
+            .lugarBuenosAiresImagenes{
+                .Limg1{
+                    width: 30vw;
+                    border: none;
+                }
+                .Limg2{
+                    border: none;
+                    width: 30vw;
+                }
+            }
+            .lugarParrafo{
+                .parrafo{
+                    font-size: 15px !important;
+                }
+                a{
+                }
+            }
+        }
+    }
+}
+    .subTitulo{
+        .lugarTucuman{
+            .lugarTucumanImagenes{
+                .Ltimg1{
+                    width: 35vw;
+                }
+                .Ltimg2{
+                    width: 35vw;
+                }
+            }
+            .lugarParrafo{
+                .parrafo{
+                    font-size: 20px;
+                }
+                a{
+
+                }
+            }
+    }
+}
+

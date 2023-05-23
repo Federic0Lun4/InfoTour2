@@ -1,0 +1,11 @@
+/*----Extends😁------*/
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}

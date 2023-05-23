@@ -252,10 +252,7 @@ border: 2px black solid;
 font-size: 30px
 }
 .tucuman div{
-    background-color: rgba(255, 255, 255, 0.486);
-    border: 2px black solid;
-    width: 100%;
-
+    font-size: 30px
 }
 .tucuman p{
     text-align: center;
@@ -407,6 +404,18 @@ footer div p{
     }
 }
 @media screen and (max-width:1155px) {
+    .lugarTucuman{
+        width:1;
+        display: flex;
+        flex-direction: column;
+    }
+    .lugarTucuman .lugarTucumanImagenes{
+        display: flex;
+        justify-content: space-around;
+    }
+    .lugarTucuman .lugarTucumanImagenes img{
+        width: 43vw;
+    }
     .lugarBuenosAires{
         width:1;
         display: flex;
@@ -427,6 +436,12 @@ footer div p{
     .img2{
         grid-column: span 2;
         object-fit: cover;
+    }
+    .img4{
+        grid-column: span 3;
+    }
+    .img5{
+        grid-column: span 3;
     }
 }
 @media screen and (max-width:950px){
@@ -449,6 +464,9 @@ footer div p{
     }
 }
 @media screen and (max-width:880px){
+    .lugarTucuman .lugarTucumanImagenes .Limg1{
+        display: none;
+    }
     .lugarBuenosAires .lugarBuenosAiresImagenes .Limg1{
         display: none;
     }
@@ -462,6 +480,9 @@ footer div p{
     .hero div img{
         width:100%;
         margin: 0px;
+    }
+    .lugarTucuman .lugarTucumanImagenes .parrafo{
+        font-size: 18px;
     }
     .lugarBuenosAires .lugarParrafo .parrafo {
         font-size: 18px;
@@ -491,11 +512,17 @@ footer div p{
 
 }
 @media screen and (max-width:580px){
+    .tucuman p{
+        display: none;
+    }
     .buenosAires p{
         display: none;
         }
 }
 @media screen and (max-width:490px) {
+    .lugarTucuman .lugarTucumanImagenes img{
+        width: 37vw;
+    }
     .lugarBuenosAires .lugarBuenosAiresImagenes img {
         width:37vw ;
         
