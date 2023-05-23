@@ -11,7 +11,7 @@ main{
                 height: 500px;
                 margin: 30px 30px 30px 30px;
             }
-            h2{
+            h1{
                 position: absolute;
                 margin-top: 50px;
                 background-color: rgba(255, 255, 255, 0.279);
@@ -27,7 +27,7 @@ main{
         background-size: cover;
         text-align: center;
         h2{
-            background-color: #202020;
+            background-color: beige;
             color: rgb(0, 0, 0);
             font-size: 45px;
             padding: 15px;
@@ -42,7 +42,7 @@ main{
     .sugerencias{
         h2{
             color: rgb(2, 2, 2);
-            background-color:#202020;
+            background-color:beige;
             background-size: cover;
             font-size:35px ;
             padding: 15px;
@@ -176,14 +176,19 @@ main{
             display: flex;
             .lugarBuenosAiresImagenes{
                 width: auto;
-                border: 2px rgb(0, 0, 0) solid;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
                     img{
-                        height: 52vh;
-                        width: 35vw;
+                        height: 35vh;
+                        width: 28vw;
                         margin: 10px 10px 10px 10px;
                         object-fit: cover;
                         display:flex ;
                         flex-direction: column;
+                        box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
+                        -webkit-box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
+                        -moz-box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
                         }
                     }
             
@@ -193,7 +198,7 @@ main{
                 justify-content: space-between;
                 .parrafo{
                     color: rgb(0, 0, 0);
-                    font-size: 30px;  
+                    font-size: 28px;  
                 }
                 a{
                     display: flex;
@@ -290,7 +295,7 @@ main{
                 justify-content: space-between;
                 .parrafo{
                     color: rgb(0, 0, 0);
-                    font-size: 30px;  
+                    font-size: 28px;  
                 }
                 a{
                     display: flex;
@@ -338,8 +343,14 @@ main{
     }
     section{
         .separador{
+            color: white;
+            text-shadow: 6px 2px 11px #12CEC5;
             text-align: center;
-            background-color:rgb(103, 103, 103) ;
+            padding-bottom: 10px;
+            animation-name: slide;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0,5s;
         }
     }
     .subTitulo{
@@ -356,13 +367,19 @@ main{
             display: flex;
             .lugarBuenosAiresImagenes{
                 width: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
                     img{
-                        height: 52vh;
-                        width: 35vw;
+                        height: 35vh;
+                        width: 28vw;
                         margin: 10px 10px 10px 10px;
                         object-fit: cover;
                         display:flex ;
                         flex-direction: column;
+                        box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
+                        -webkit-box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
+                        -moz-box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
                         }
                     }
             }
@@ -372,7 +389,7 @@ main{
                 justify-content: space-between;
                 .parrafo{
                     color: rgb(0, 0, 0);
-                    font-size: 30px;  
+                    font-size: 28px;  
                 }
                 a{
                     display: flex;
@@ -415,6 +432,18 @@ main{
             }
         }
     }
+    section{
+        .separador{
+            color: white;
+            text-shadow: 6px 2px 11px #12CEC5;
+            text-align: center;
+            padding-bottom: 10px;
+            animation-name: slide;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0,5s;
+        }
+    }
     .subTitulo{
         font-size: 30px;
         background-color: #22c0ce;
@@ -429,21 +458,30 @@ main{
             display: flex;
             .lugarBuenosAiresImagenes{
                 width: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
                 .Limg1{
-                    height: 52vh;
-                    width: 35vw;
+                    height: 35vh;
+                    width: 28vw;
                     margin: 10px 10px 10px 10px;
                     object-fit: cover;
                     display:flex ;
                     flex-direction: column;
+                    box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
                 }
                 .Limg2{
-                    height: 52vh;
-                    width: 35vw;
+                    height: 35vh;
+                    width: 28vw;
                     margin: 10px 10px 10px 10px;
                     object-fit: cover;
                     display:flex ;
                     flex-direction: column;
+                    box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: -9px 3px 9px 0px rgba(0,0,0,0.75);
                 }
             }
             .lugarParrafo{
@@ -452,7 +490,7 @@ main{
                 justify-content: space-between;
                 .parrafo{
                     color: rgb(0, 0, 0);
-                    font-size: 30px; 
+                    font-size: 28px; 
                 }
                 a{
                     display: flex;
