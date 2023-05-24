@@ -53,6 +53,31 @@
 
 }
 @media screen and (max-width:1040px) {
+main{
+    section{
+        .separador{
+
+        }
+    }
+    .subTitulo{
+        .lugarBuenosAires{
+            display: flex;
+            flex-direction: column;
+            .lugarBuenosAiresImagenes {
+                display: flex;
+                flex-direction: row;
+                .Limg1{
+                    width: 35vw;
+                    border: none;
+                }
+                .Limg2{
+                    width: 35vw;
+                    border: none;
+                }
+            }
+        }
+    }
+}
     .gridContainer { 
     grid-template-columns: repeat(3,1fr);
     .img2{
@@ -94,12 +119,12 @@
         .lugarBuenosAires{
             .lugarBuenosAiresImagenes{
                 .Limg1{
-                    width: 39vw;
+                    width: 32vw;
                     border: none;
                 }
                 .Limg2{
                     border: none;
-                    width: 39vw;
+                    width: 32vw;
                 }
             }
             .lugarParrafo{
@@ -117,10 +142,10 @@
         .lugarTucuman{
             .lugarTucumanImagenes{
                 .Ltimg1{
-                    width: 39vw;
+                    width: 32vw;
                 }
                 .Ltimg2{
-                    width: 49vw;
+                    width: 32vw;
                 }
             }
             .lugarParrafo{
@@ -289,6 +314,33 @@
 
                 }
             }
+    }
+}
+@media screen and (max-width:460px) {
+    main{
+        section{
+            .separador{
+
+            }
+        }
+        .subTitulo{
+            .lugarBuenosAires{
+                display: flex;
+                flex-direction: column;
+                .lugarBuenosAiresImagenes {
+                    display: flex;
+                    justify-content: space-around;
+                    .Limg1{
+                        width: 30vw;
+                        border: none;
+                    }
+                    .Limg2{
+                        width: 30vw;
+                        border: none;
+                    }
+                }
+            }
+        }
     }
 }
 
