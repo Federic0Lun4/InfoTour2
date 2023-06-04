@@ -11,9 +11,10 @@
     }
 }
 @media screen and (max-width:1155px) {
+    .subTitulo{ 
     .lugarBuenosAires{
         display: flex;
-        flex-direction: column;
+        
         .lugarBuenosAiresImagenes {
             display: flex;
             justify-content: space-around;
@@ -27,6 +28,7 @@
             }
         }
     }
+}
 .subTitulo{
     H2{
 
@@ -36,15 +38,15 @@
         flex-direction: column;
         .lugarTucumanImagenes{
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
+            flex-direction: row-reverse;
             .Ltimg1{
-                width: 55vw;
+                width: 45vw;
                 border: none;
             }
             .Ltimg2{
-                width: 55vw;
+                width: 45vw;
                 border: none;
             }
         }
@@ -101,7 +103,7 @@ main{
                 height: 350px;
                 margin: 0px;
             }
-            h2{
+            h1{
                 position: absolute;
                 margin-top: 50px;
                 background-color: rgba(255, 255, 255, 0.279);
@@ -165,7 +167,7 @@ main{
                 img{
                     width: 100%;
                 }
-                h2{
+                h1{
                     font-size: 55px;
                 }
             }
@@ -343,4 +345,25 @@ main{
         }
     }
 }
-
+@media screen and (max-width:440px){
+.hero{
+    .imgtitle{
+        img{
+            border: 0px black solid;
+            width: 440px;
+            height: 350px;
+            margin: 0px;
+        }
+        h1{
+            position: absolute;
+            margin-top: 50px;
+            background-color: rgba(255, 255, 255, 0.279);
+            padding: 5px;
+            font-family: 'Courgette', cursive;
+            color:rgb(0, 0, 0);
+            font-size: 50px;
+            border: 10px white double;  
+        }
+    }
+}      
+}

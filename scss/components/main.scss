@@ -210,6 +210,7 @@ main{
         }
     }
 }
+
 /*---Tucuman---*/
 main{
     .tucuman{
@@ -506,5 +507,16 @@ main{
         }
     }
 }
-
-
+/*-----Contacto-----*/
+main{
+    .contactop{
+        text-align: center;
+        border: 5px black solid;
+        border-radius: 15px;
+        background-color: cadetblue;
+    }
+    .contactosection{
+    margin: 40px;
+    background-color: beige;
+    }
+}
